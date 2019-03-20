@@ -1,0 +1,2 @@
+/home/044905/Gene_Lookup/Datasets/Morrisetal2018.NatGen.SumStats/Biobank2-British-Bmd-As-C-Gwas-SumStats_FINAL.txt
+/home/044905/Gene_Lookup/Datasets/Morrisetal2018.NatGen.SumStats/Biobank2-British-FracA-As-C-Gwas-SumStats_FINAL.txt

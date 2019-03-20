@@ -10,6 +10,12 @@ FILENAME=$WD/$1
 #echo "$FILENAME"
 DATASETS="$(realpath ~)/locuszoom_results/Datasets.txt"
 
+if [ $1 = "-h" ] ||  [ $1 = "-H" ] || [ $1 = "--help" ] || [ $1 = "--HELP" ]
+then
+	cat $DIR/README.txt
+	exit 1
+fi
+
 if [[ ! -f $DATASETS ]]
 then
 	echo

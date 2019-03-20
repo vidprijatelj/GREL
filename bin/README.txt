@@ -1,3 +1,4 @@
+
 ********************************
 GWAS Results Lookup (GREL) v0.1.0
 2019-03-20
@@ -6,8 +7,8 @@ GWAS Results Lookup (GREL) v0.1.0
 1. 
 Introduction
 This tool was created with ease-of-lookup of locally provided GWAS summary statistics in mind.
-In its basicality it is a streamlined/batch lookup for LOCUSZOOM program (http://locuszoom.org) with a capability of doing so across several different datasets and several different genomic annotations.
-At the moment the only provided GWAS summary statistic datasets come from the GEFOS website (http://www.gefos.org).
+In its basicality it is a streamlined/batch lookup for LOCUSZOOM program ( http://locuszoom.org ) with a capability of doing so across several different datasets and several different genomic annotations.
+At the moment the only provided GWAS summary statistic datasets come from the GEFOS website ( http://www.gefos.org ).
 
 2. 
 Before first usage, a script will return a following output:
@@ -31,13 +32,13 @@ The basic command follows the formula:
 
 3.2.
 Gene name(s) should be:
-	- Officials Gene Symbol as provided by HGNC (https://www.genenames.org)
+	- Officials Gene Symbol as provided by HGNC ( https://www.genenames.org )
 		--e.g. TGFB1
-	- Aliases for the gene as provided by NCBI (https://www.ncbi.nlm.nih.gov)
+	- Aliases for the gene as provided by NCBI ( https://www.ncbi.nlm.nih.gov )
 		--e.g. for TGFB1: CED; LAP; DPD1; TGFB; TGFbeta
 	- rsID for SNPs of interest, aligned to GRCh37
 		--e.g. rs1800468
-	- Genomic position, as denoted by chrx:y, where x...chromosome and y...bp on said chromosome
+	- Genomic position, as denoted by chrn:i, where n...chromosome and i...bp on said chromosome
 		--e.g. chr19:41860587
 If you need to check several genes in a "batch", you can list them in a (text) file, each gene separated by a newline, e.g.
 TGFB1
@@ -83,3 +84,4 @@ Inside each such subfolder there will be two files for each analyzed dataset.
 5.
 Misc
 For any additional questions/problems, send me an e-mail at: v.prijatelj@erasmusmc.nl
+

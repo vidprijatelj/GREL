@@ -33,16 +33,16 @@ if [[ -f $FILENAME ]]
 then
 	while read -r line; do
 		gene="$line"
-		python3.6 $GREL $line
+		python3 $GREL $line
 	done < $FILENAME
 fi
 
 if [[ ! -f $FILENAME ]] && [[ -n "$1" ]]
 then
-	python3.6 $GREL $1
+	python3 $GREL $1
 fi
 
 if [[ ! -n "$1" ]]
 then
-	python3.6 $GREL
+	python3 $GREL
 fi

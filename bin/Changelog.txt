@@ -1,0 +1,10 @@
+*********************************
+GWAS Results Lookup (GREL) v0.1.1
+2020-02-03
+*********************************
+
+1.
+Changelog
+
+Resolved python version conflict
+-Changed all the 'python3.6' references to 'python3'

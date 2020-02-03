@@ -1,4 +1,4 @@
-#!/opt/software/Python3/bin/python3.6
+#!/opt/software/Python3/bin/python3
 
 import sys
 import os
@@ -218,7 +218,6 @@ user_dir = os.path.expanduser('~')
 datasets_file = user_dir + '/locuszoom_results/Datasets.txt'
 
 with open(datasets_file, 'r') as f:
-    
     # We define the default user folder i.e. '~' for each user seperately
     # We define a current date and time in a format:
     #   year (2 digits) - month - day -- hour - minute
@@ -232,7 +231,7 @@ with open(datasets_file, 'r') as f:
     pathlib.Path(user_dir+'/locuszoom_results/'+locuszoom_folder_name).mkdir(parents=True, \
         exist_ok=True)
     os.chdir(user_dir+'/locuszoom_results/'+locuszoom_folder_name)
-    
+
     for line in f:
         if not line.startswith('#'):
             run_locus_zoom(line)
